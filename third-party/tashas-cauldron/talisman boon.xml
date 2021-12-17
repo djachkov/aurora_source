@@ -2,13 +2,13 @@
 <elements>
 	<info>
   		<update version="0.0.1">
-		<file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/tashas-cauldron/talisman%20boon.xml" />
+		<file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/talisman%20boon.xml" />
 		</update>
 		<name>Warlock</name>
 		<description>Tasha- New Pact Boons</description>
 	</info>
 
-	<element name="Pact of The Talisman" type="Class Feature" source="TASHA" id="ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN">
+	<element name="Pact of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN">
 		<supports>Pact Boon</supports>
 		<description>
 			<p>You can create an eldritch talisman which grant favors for the wearer.</p>

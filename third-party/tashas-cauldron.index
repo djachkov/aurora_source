@@ -2,13 +2,13 @@
 <index>
 	<info>
 		<name>Tashas-Cauldron</name>
-		<description>Tasha's Cauldron imported by me and encouraged by my friends Dream and Walker</description>
+		<description>Tasha's Cauldron imported by me and encouraged by my friends Dream and Walker Plus Gutairist, Lamp and Haram</description>
 		<update version="0.0.1">
-			<file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/tashas-cauldron.index" />
+			<file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron.index" />
 		</update>
 	</info>
 	<files>
-	    <file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/tashas-cauldron/talisman%20boon.xml" />
-        <file name="talisman-invocations.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/tashas-cauldron/talisman%20invocations.xml" />
+	    <file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/talisman%20boon.xml" />
+        <file name="talisman-invocations.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/talisman%20invocations.xml" />
 	</files>
 </index>	
