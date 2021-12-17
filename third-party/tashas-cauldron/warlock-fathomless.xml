@@ -8,7 +8,7 @@
       <file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/warlock-fathomless.xml" />
     </update>
   </info>
-  <element name="The Fathomless" type="Archetype" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_Fathomless">
+  <element name="The Fathomless" type="Archetype" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FATHOMLESS">
     <supports>Otherworldly Patron</supports>
     <description>
       <p>You have plunged into a pact with the deeps. An entity of the ocean, the Elemental Plane of Water, or another otherworldly sea now allows you to draw on its thalassic power. Is it merely using you to learn about terrestrial realms, or does it want you to open cosmic floodgates and drown the world?</p>
@@ -16,6 +16,10 @@
       <div element="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_EXPANDED_SPELL_LIST" />
       <div element="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_TENTACLE_OF_THE_DEEPS" />
       <div element="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GIFT_OF_THE_SEA" />
+	  <div element="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_OCEANIC_SOUL" />
+	  <div element="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GUARDIAN_COIL" />
+	  <div element="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GRASPING_TENTACLES" />
+	  <div element="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_PLUNGE" />
     </description>
     <sheet>
       <description>Entities of the deep that might empower a warlock include krakens, ancient water elementals, godlike hallucinations dreamed into being by kuo-toa, merfolk demigods, and sea hag covens.</description>
@@ -24,6 +28,10 @@
       <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_EXPANDED_SPELL_LIST" level="1"/>
       <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_TENTACLE_OF_THE_DEEPS" level="1"/>
       <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GIFT_OF_THE_SEA" level="1"/>
+	  <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_OCEANIC_SOUL" level="6" />
+	  <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GUARDIAN_COIL" level="6" />
+	  <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GRASPING_TENTACLES" level="10" />
+	  <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_PLUNGE" level="14" />
     </rules>
   </element>
   <element name="Expanded Spell List" type="Archetype Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_EXPANDED_SPELL_LIST">
@@ -46,21 +54,21 @@
       <description>The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell.</description>
     </sheet>
     <spellcasting name="Warlock" extend="true">
-      <extend>ID_PHB_SPELL_CREATE_OR_DESTROY_WATER</extend>
-      <extend>ID_PHB_SPELL_THUNDERWAVE</extend>
-      <extend>ID_PHB_SPELL_GUST_OF_WIND</extend>
-      <extend>ID_PHB_SPELL_SCILENCE</extend>
-      <extend>ID_PHB_SPELL_LIGHTNING_BOLT</extend>
-      <extend>ID_PHB_SPELL_SLEET_STORM</extend>
-      <extend>ID_PHB_SPELL_CONTROL_WATER</extend>
+      <extend>ID_TCE_SPELL_CREATE_OR_DESTROY_WATER</extend>
+      <extend>ID_TCE_SPELL_THUNDERWAVE</extend>
+      <extend>ID_TCE_SPELL_GUST_OF_WIND</extend>
+      <extend>ID_TCE_SPELL_SCILENCE</extend>
+      <extend>ID_TCE_SPELL_LIGHTNING_BOLT</extend>
+      <extend>ID_TCE_SPELL_SLEET_STORM</extend>
+      <extend>ID_TCE_SPELL_CONTROL_WATER</extend>
       <extend>ID_TCE_SPELL_SUMMON_ELEMENTAL</extend>
-      <extend>ID_PHB_SPELL_BIGBYS_HAND</extend>
-      <extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
+      <extend>ID_TCE_SPELL_BIGBYS_HAND</extend>
+      <extend>ID_TCE_SPELL_CONE_OF_COLD</extend>
     </spellcasting>
   </element>
-  <element name="Tentacle of the Deeps" type="Archetype Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_TENTACLE_OF_THE_DEEPS">
+  <element name="Tentacle of the Deeps" type="Fathomless Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_TENTACLE_OF_THE_DEEPS">
     <description>
-      <p>At 1st level, you learn the <i>sacred flame</i> and <i>light</i> cantrips. They count as warlock cantrips for you, but they don’t count against your number of cantrips known.</p>
+      <p>You can magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle. When you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage increases to 2d8.</p>
     </description>
     <sheet>
       <description>As a bonus action on your turn, you can move {{Tentacle of the Deeps:dice pool}} up to 30 feet and repeat the attack. You can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
@@ -71,9 +79,37 @@
       <stat name="tentacle of the deeps:max uses" value="proficiency:bonus" />
     </rules>
   </element>
-  <element name="Gift of the Sea" type="Archetype Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GIFT_OF_THE_SEA">
+  <element name="Gift of the Sea" type="Fathomless Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GIFT_OF_THE_SEA">
     <description>
       <p>You gain a swimming speed of 40 feet, and you can breathe underwater.</p>
     </description>
+  </element>
+  <element name="The Fathomless: Oceanic Soul" type="Otherworldly Patron Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_OCEANIC_SOUL">
+    <prerequisite>6th level</prerequisite>
+    <requirements>[level:6]</requirements>
+    <description>
+      <p>You are now even more at home in the depths. You gain resistance to cold damage. In addition, when you are fully submerged, any creature that is also fully submerged can understand your speech, and you can understand theirs.</p>
+    </description>
+  </element>
+    <element name="The Fathomless: Guardian Coil" type="Otherworldly Patron Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GUARDIAN_COIL">
+    <prerequisite>6th level</prerequisite>
+    <requirements>[level:6]</requirements>
+    <description>
+      <p>Your Tentacle of the Deeps can defend you and others, interposing itself between them and harm. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to that creature by 1d8. When you reach 10th level in this class, the damage reduced by the tentacle increases to 2d8.</p>
+    </description>
+  </element>
+  <element name="The Fathomless: Grasping Tentacles" type="Fathomless Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GRASPING_TENTACLES">
+    <prerequisite>10th level</prerequisite>
+    <requirements>[level:10]</requirements>
+    <description>
+      <p>You learn the spell Evard's black tentacles. It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.Whenever you cast this spell, your patron's magic bolsters you, granting you a number of temporary hit points equal to your warlock level. Moreover, damage can't break your concentration on this spell.</p>
+    </description>
+  </element>
+  <element name="The Fathomless: Fathomless Plunge" type="Fathomless Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_PLUNGE">
+    <prerequisite>14th level</prerequisite>
+    <requirements>[level:14]</requirements>
+	<description>
+	  <p>You can magically open temporary conduits to watery destinations. As an action, you can teleport yourself and up to five other willing creatures that you can see within 30 feet of you. Amid a whirl of tentacles, you all vanish and then reappear up to 1 mile away in a body of water you've seen (pond size or larger) or within 30 feet of it, each of you appearing in an unoccupied space within 30 feet of the others. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+	</description>
   </element>
 </elements>

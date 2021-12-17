@@ -7,7 +7,7 @@
 		<name>Warlock</name>
 		<description>Tasha- New Invocations</description>
 	</info>
-	<element name="Eldritch Mind" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_ELDRITCH_MIND">
+	<element name="Eldritch Mind" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_ELDRITCH_MIND">
         <supports>Eldritch Invocation</supports>
         <prerequisite>1st level</prerequisite>
         <requirements>[level:1]</requirements>
@@ -23,7 +23,7 @@
 		</rules>		
     </element>
 	
-	<element name="Twofold Pact" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_TWOFOLD_PACT">
+	<element name="Twofold Pact" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_TWOFOLD_PACT">
         <supports>Eldritch Invocation</supports>
         <prerequisite>11th level</prerequisite>
         <requirements>[level:11]</requirements>
@@ -39,7 +39,7 @@
 		</rules>		
     </element>
 
-	<element name="Bond Of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_BOND_TALISMAN">
+	<element name="Bond Of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_BOND_TALISMAN">
 		<supports>Eldritch Invocation</supports>
 		<prerequisite>12th level, Pact of the Talisman feature</prerequisite>
         	<requirements>[level:12], ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
@@ -51,7 +51,7 @@
 		</sheet>
 	</element>
 
-	<element name="Protection Of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_PROTECTION_TALISMAN">
+	<element name="Protection Of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_PROTECTION_TALISMAN">
 		<supports>Eldritch Invocation</supports>
 		<prerequisite>7th level, Pact of the Tome feature</prerequisite>
         	<requirements>[level:7], ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
@@ -63,7 +63,7 @@
 		</sheet>
 	</element>
 
-	<element name="Rebuke Of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_REBUKE_TALISMAN">
+	<element name="Rebuke Of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRONS_CAULDRON_CLASS_FEATURE_REBUKE_TALISMAN">
 		<supports>Eldritch Invocation</supports>
 		<prerequisite>Pact of the Tome feature</prerequisite>
         	<requirements>ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
