@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>The Fathomless</name>
+    <description>The Fathomless Otherworldly Patron from Tasha's Cauldron</description>
+    <author url="https://github.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder">Wulfric</author>
+    <update version="0.0.1">
+      <file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/warlock-fathomless.xml" />
+    </update>
+  </info>
+  <element name="The Fathomless" type="Archetype" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_Fathomless">
+    <supports>Otherworldly Patron</supports>
+    <description>
+      <p>You have plunged into a pact with the deeps. An entity of the ocean, the Elemental Plane of Water, or another otherworldly sea now allows you to draw on its thalassic power. Is it merely using you to learn about terrestrial realms, or does it want you to open cosmic floodgates and drown the world?</p>
+      <p class="indent">Perhaps you were born into a generational cult that venerates the Fathomless and its spawn. Or you might have been shipwrecked and on the brink of drowning when your patron's grasp offered you a chance at life. Whatever the reason for your pact, the sea and its unknown depths call to you.</p>
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_FATHOMLESS_EXPANDED_SPELL_LIST" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_FATHOMLESS_TENTACLE_OF_THE_DEEPS" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_FATHOMLESS_GIFT_OF_THE_SEA" />
+    </description>
+    <sheet>
+      <description>Entities of the deep that might empower a warlock include krakens, ancient water elementals, godlike hallucinations dreamed into being by kuo-toa, merfolk demigods, and sea hag covens.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_EXPANDED_SPELL_LIST" level="1"/>
+      <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_TENTACLE_OF_THE_DEEPS" level="1"/>
+      <grant type="Archetype Feature" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GIFT_OF_THE_SEA" level="1"/>
+    </rules>
+  </element>
+  <element name="Expanded Spell List" type="Archetype Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_EXPANDED_SPELL_LIST">
+    <supports>Warlock</supports>
+    <description>
+      <p>The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+      <h5>FATHOMLESS EXPANDED SPELLS</h5>
+      <table>
+        <thead>
+          <tr><td>Spell Level</td><td>Spells</td></tr>
+        </thead>
+        <tr><td>1st</td><td><em>create or destroy water, thunderwave</em></td></tr>
+        <tr><td>2nd</td><td><em>gust of wind, silence</em></td></tr>
+        <tr><td>3rd</td><td><em>lightning bolt, sleet storm</em></td></tr>
+        <tr><td>4th</td><td><em>control water, summon elemental (water only)</em></td></tr>
+        <tr><td>5th</td><td><em>Bigby's hand (appears as a tentacle), cone of cold</em></td></tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+    </sheet>
+    <spellcasting name="Warlock" extend="true">
+      <extend>ID_PHB_SPELL_CREATE_OR_DESTROY_WATER</extend>
+      <extend>ID_PHB_SPELL_THUNDERWAVE</extend>
+      <extend>ID_PHB_SPELL_GUST_OF_WIND</extend>
+      <extend>ID_PHB_SPELL_SCILENCE</extend>
+      <extend>ID_PHB_SPELL_LIGHTNING_BOLT</extend>
+      <extend>ID_PHB_SPELL_SLEET_STORM</extend>
+      <extend>ID_PHB_SPELL_CONTROL_WATER</extend>
+      <extend>ID_TCE_SPELL_SUMMON_ELEMENTAL</extend>
+      <extend>ID_PHB_SPELL_BIGBYS_HAND</extend>
+      <extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
+    </spellcasting>
+  </element>
+  <element name="Tentacle of the Deeps" type="Archetype Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_TENTACLE_OF_THE_DEEPS">
+    <description>
+      <p>At 1st level, you learn the <i>sacred flame</i> and <i>light</i> cantrips. They count as warlock cantrips for you, but they don’t count against your number of cantrips known.</p>
+    </description>
+    <sheet>
+      <description>As a bonus action on your turn, you can move {{Tentacle of the Deeps:dice pool}} up to 30 feet and repeat the attack. You can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+    </sheet>
+	 <rules>
+      <stat name="tentacle of the deeps:dice pool" value="level:warlock" />
+      <stat name="tentacle of the deeps:dice pool" value="1" />
+      <stat name="tentacle of the deeps:max uses" value="charisma:modifier" />
+    </rules>
+  </element>
+  <element name="Gift of the Sea" type="Archetype Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_FEATURE_FATHOMLESS_GIFT_OF_THE_SEA">
+    <description>
+      <p>You gain a swimming speed of 40 feet, and you can breathe underwater.</p>
+    </description>
+  </element>
+</elements>
