@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+  		<update version="0.0.1">
+		<file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/talisman%20boon.xml" />
+		</update>
+		<name>Warlock</name>
+		<description>Tasha- New Pact Boons</description>
+	</info>
+
+	<element name="Pact of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>You can create an eldritch talisman which grant favors for the wearer.</p>
+			<p class="indent">Your patron gives you an Amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest</p>
+			<p class="indent">If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.</p>
+		</description>
+		<sheet usage="Free Action">
+			<description>When you fail an ability check, you can roll a d4 and add to the roll.</description>
+		</sheet>
+	</element>
+	
+	<element name="Pact of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_THE_FATHOMLESS">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>You can create an eldritch talisman which grant favors for the wearer.</p>
+			<p class="indent">Gift of the Sea, 1st-level Fathomless feature: You gain a swimming speed of 40 feet, and you can breathe underwater.</p>
+			<p class="indent">Tentacle of the Deeps, 1st-level Fathomless feature: You can magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle. When you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage increases to 2d8. As a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack. You can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="Free Action">
+			<description>Create a 10-foot-long tentacle at a point you can see within 60 feet of you.</description>
+		</sheet>
+	</element>
+    </elements>
+	
+	
+	
+	
+	
+	
