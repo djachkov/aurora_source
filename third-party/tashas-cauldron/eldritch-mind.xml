@@ -2,7 +2,7 @@
 <elements>
 	<info>
   		<update version="0.0.1">
-		<file name="eldritch-mind.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/eldritch-versatility.xml" />
+		<file name="eldritch-mind.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/eldritch-mind.xml" />
 		</update>
 		<name>Warlock</name>
 		<description>Tashas Cauldron- Warlock Features</description>
