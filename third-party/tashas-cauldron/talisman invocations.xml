@@ -23,7 +23,6 @@
 		<select type="Class Feature" name="Eldritch Invocation (Eldritch Mind)" supports="Eldritch Invocation" level="1"/>		
 		</rules>		
     	</element>
-    </elements>
 	
 	<element name="Twofold Pact" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_TWOFOLD_PACT">
         <supports>Eldritch Invocation</supports>
