@@ -4,16 +4,16 @@
 		<name>Third Party</name>
 		<description>The content from various third party sources.</description>
 		<update version="0.2.2">
-			<file name="third-party.index" url="https://github.com/ThomasWulfric/Tashas-Cauldron/edit/main/third-party.index" />
+			<file name="third-party.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party.index" />
 		</update>
 	</info>
 	<files>
-		<file name="arcanum-worlds.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/third-party/arcanum-worlds.index" />
-		<file name="critical-role.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/third-party/critical-role.index" />
-		<file name="dms-guild.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/third-party/dms-guild.index" />
-		<file name="genuine-fantasy-press.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/third-party/genuine-fantasy-press.index" />
-		<file name="kobold-press.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/third-party/kobold-press.index" />
-		<file name="mage-hand-press.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/third-party/mage-hand-press.index" />
-                <file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/third-party/tashas-cauldron.index" />
+		<file name="arcanum-worlds.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/arcanum-worlds.index" />
+		<file name="critical-role.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/critical-role.index" />
+		<file name="dms-guild.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/dms-guild.index" />
+		<file name="genuine-fantasy-press.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/genuine-fantasy-press.index" />
+		<file name="kobold-press.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/kobold-press.index" />
+		<file name="mage-hand-press.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/mage-hand-press.index" />
+        <file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron.index" />
 	</files>
 </index>
