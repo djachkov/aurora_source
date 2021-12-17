@@ -7,7 +7,24 @@
 		<name>Warlock</name>
 		<description>Tasha- New Invocations</description>
 	</info>
-	<element name="Twofold Pact" type="Class Feature" source="TASHA" id="ID_TASHA_CLASS_FEATURE_TWOFOLD_PACT">
+	<element name="Eldritch Mind" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_ELDRITCH_MIND">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>1st level</prerequisite>
+        <requirements>[level:1]</requirements>
+        <description>
+        <p>You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.</p>
+		</description>
+		<sheet display="false">
+        <description>You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.</description>
+        </sheet>
+		<rules>		
+		<select type="Eldritch Invocation" supports="Eldritch Invocation" name="Eldritch Mind"/>
+		<select type="Class Feature" name="Eldritch Invocation (Eldritch Mind)" supports="Eldritch Invocation" level="1"/>		
+		</rules>		
+    	</element>
+    </elements>
+	
+	<element name="Twofold Pact" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_TWOFOLD_PACT">
         <supports>Eldritch Invocation</supports>
         <prerequisite>11th level</prerequisite>
         <requirements>[level:11]</requirements>
@@ -49,7 +66,7 @@
 
 	<element name="Rebuke Of The Talisman" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHA_CLASS_FEATURE_REBUKE_TALISMAN">
 		<supports>Eldritch Invocation</supports>
-		<prerequisite>Pact of the Tome feature</prerequisite>
+		<prerequisite>Pact of the Talisman feature</prerequisite>
         	<requirements>ID_TASHA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
 		<description>
 		<p>When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman's wearer.</p>				
