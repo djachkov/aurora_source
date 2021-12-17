@@ -28,8 +28,7 @@
       <set name="isRitual">false</set>
     </setters>
    </element>
-	
-	  <element name="Gust of Wind" type="Spell" source="Tasha's Cauldron" id="ID_TCE_SPELL_GUST_OF_WIND">
+   <element name="Gust of Wind" type="Spell" source="Tasha's Cauldron" id="ID_TCE_SPELL_GUST_OF_WIND">
     <supports>Warlock</supports>
     <description>
       <p>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell’s duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p>
@@ -51,8 +50,7 @@
       <set name="isConcentration">true</set>
       <set name="isRitual">false</set>
     </setters>
-  </element>
-  
+   </element>
    <element name="Create or Destroy Water" type="Spell" source="Tasha's Cauldron" id="ID_TCE_SPELL_CREATE_OR_DESTROY_WATER">
     <supports>Warlock</supports>
     <description>
@@ -73,8 +71,7 @@
       <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
-  </element>
-  
+   </element>
    <element name="Silence" type="Spell" source="Tasha's Cauldron" id="ID_TCE_SPELL_SILENCE">
     <supports>Warlock</supports>
     <description>
@@ -94,4 +91,5 @@
       <set name="isConcentration">true</set>
       <set name="isRitual">true</set>
     </setters>
-  </element>
+   </element>
+</elements>
