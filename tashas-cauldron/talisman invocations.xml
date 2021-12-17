@@ -2,7 +2,7 @@
 <elements>
 	<info>
   		<update version="0.0.1">
-		<file name="talisman-invocations.xml" url="https://raw.githubusercontent.com/Theuncutlegend/aurorabuilder_tasha/new/main.xml" />
+		<file name="talisman-invocations.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/tashas-cauldron/talisman%20invocations.xml" />
 		</update>
 		<name>Warlock</name>
 		<description>Tasha- New Invocations</description>
