@@ -27,4 +27,71 @@
       <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
+   </element>
+	
+	  <element name="Gust of Wind" type="Spell" source="Tasha's Cauldron" id="ID_TCE_SPELL_GUST_OF_WIND">
+    <supports>Warlock</supports>
+    <description>
+      <p>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell’s duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p>
+      <p class="indent">Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p>
+      <p class="indent">The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</p>
+      <p class="indent">As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self (60-foot line)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a legume seed</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+   <element name="Create or Destroy Water" type="Spell" source="Tasha's Cauldron" id="ID_TCE_SPELL_CREATE_OR_DESTROY_WATER">
+    <supports>Warlock</supports>
+    <description>
+      <p>You either create or destroy water. Create Water. You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area. Destroy Water. You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a drop of water if creating water or a few grains of sand if destroying it</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+   <element name="Silence" type="Spell" source="Tasha's Cauldron" id="ID_TCE_SPELL_SILENCE">
+    <supports>Warlock</supports>
+    <description>
+      <p>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+    </setters>
   </element>
