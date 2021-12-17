@@ -8,6 +8,7 @@
 		</update>
 	</info>
 	<files>
+	    <file name="eldritch-versatility.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/eldritch-versatility.xml" />
 	    <file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/talisman%20boon.xml" />
         <file name="talisman-invocations.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/talisman%20invocations.xml" />
 	</files>
