@@ -2,7 +2,7 @@
 <elements>
 	<info>
   		<update version="0.0.1">
-		<file name="talisman-boon.xml" url="https://raw.githubusercontent.com/Theuncutlegend/aurorabuilder_tasha/main/talisman%20boon" />
+		<file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Tashas-Cauldron/main/tashas-cauldron/talisman%20boon.xml" />
 		</update>
 		<name>Warlock</name>
 		<description>Tasha- New Pact Boons</description>
