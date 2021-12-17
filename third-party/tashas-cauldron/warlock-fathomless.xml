@@ -5,7 +5,7 @@
     <description>The Fathomless Otherworldly Patron from Tasha's Cauldron</description>
     <author url="https://github.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder">Wulfric</author>
     <update version="0.0.1">
-      <file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/warlock-fathomless.xml" />
+      <file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/warlock-fathomless.xml" />
     </update>
   </info>
   <element name="The Fathomless" type="Archetype" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_ARCHETYPE_Fathomless">
