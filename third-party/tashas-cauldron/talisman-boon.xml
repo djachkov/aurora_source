@@ -2,7 +2,7 @@
 <elements>
 	<info>
   		<update version="0.0.1">
-		<file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/talisman%20boon.xml" />
+		<file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/talisman%20boon.xml" />
 		</update>
 		<name>Warlock</name>
 		<description>Tasha- New Pact Boons</description>
