@@ -5,7 +5,7 @@
 		<description>Feats from Tasha's Cauldron.</description>
 		<author url="https://5e.tools/book.html#tce,-1">Wulfric</author>
 		<update version="0.1.6">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/feats.xml" />
 		</update>
 	</info>
 	
@@ -13,8 +13,8 @@
 		<description>
 			<p>You have honed your proficiency with particular skills, granting you the following benefits</p>
 			<ul>
-				<li>You gain proficiency in one skill of your choice.</li>
-				<li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</li>
+			   <li>You gain proficiency in one skill of your choice.</li>
+			   <li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</li>
 			</ul>
 		</description>
 	</element>
