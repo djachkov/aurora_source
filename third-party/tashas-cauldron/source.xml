@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/source.xml" />
 		</update>
 	</info>
 	<element name="Tasha's Cauldron" type="Source" source="Core" id="ID_SOURCE_TASHAS_CAULDRON">
