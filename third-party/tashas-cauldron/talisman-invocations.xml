@@ -78,12 +78,33 @@
     <element name="Far Scribe" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_FAR_SCRIBE">
 		<supports>Eldritch Invocation</supports>
 		<prerequisite>5th level, Pact of the Tome</prerequisite>
-        <requirements>[level:5], ID_TASHAS_CAULDRON_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <requirements>[level:5], ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
 		<description>
-		<p>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus. You can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.</p>				
+		<p>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus. You can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute. As an action, you can magically erase a name on the page by touching it.</p>
 		</description>
 		<sheet action="Action">
 		<description>As an action, you can magically erase a name on the page by touching it.</description>
 		</sheet>
+	</element>
+	
+	<element name="Gift of the Protectors" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_GIFT_OF_THE_PROTECTORS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, Pact of the Tome</prerequisite>
+        <requirements>[level:9], ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+		<description>
+		<p>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus. When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.</p>
+		</description>
+		<sheet action="Action">
+		<description>As an action, you can magically erase a name on the page by touching it.</description>
+		</sheet>
+	</element>
+	
+	<element name="Undying Servitude" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_UNDYING_SERVITUDE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+		<description>
+		<p>You can cast animate dead without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest.</p>
+		</description>
 	</element>
 </elements>
