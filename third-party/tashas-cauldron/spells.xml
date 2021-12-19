@@ -3,7 +3,7 @@
   <info>
     <name>Spells</name>
     <update version="0.0.1">
-      <file name="spells.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron/spells.xml" />
+      <file name="spells.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/spells.xml" />
     </update>
   </info>
 
