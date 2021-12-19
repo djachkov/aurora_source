@@ -4,7 +4,7 @@
 		<name>Third Party</name>
 		<description>The content from various third party sources.</description>
 		<update version="0.2.2">
-			<file name="third-party.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party.index" />
+			<file name="third-party.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party.index" />
 		</update>
 	</info>
 	<files>
@@ -14,6 +14,6 @@
 		<file name="genuine-fantasy-press.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/genuine-fantasy-press.index" />
 		<file name="kobold-press.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/kobold-press.index" />
 		<file name="mage-hand-press.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/mage-hand-press.index" />
-        <file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder/main/third-party/tashas-cauldron.index" />
+                <file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron.index" />
 	</files>
 </index>
