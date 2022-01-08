@@ -7,7 +7,7 @@
 	</info>
 	<element name="Tasha's Cauldron" type="Source" source="Core" id="ID_SOURCE_TASHAS_CAULDRON">
 		<description>
-			<![CDATA[<p>Tasha's Cauldron imported by me for my friends Dream, Walker, Gutairist, Lamp and Haram</p>]]>
+			<![CDATA[<p>asha's Cauldron imported by me for my friends Dream, Walker, Gutairist, Lamp and Haram</p>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">TCE</set>
