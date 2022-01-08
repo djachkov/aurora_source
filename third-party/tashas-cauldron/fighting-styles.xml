@@ -7,7 +7,7 @@
 		<name>Fighter</name>
 		<description>Tashas- Fighting Styles</description>
 	</info>
-	<element name="Fighting Style" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE">
+	<element name="Fighting Style" type="Class Feature" source="Tasha's Cauldron" id="ID_TASHAS_CAULDRON_CLASS_FEATURE_FIGHTINGSTYLE">
 		<description>
 			<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
 			<h5 class="caption">Blind Fighting</h5>
