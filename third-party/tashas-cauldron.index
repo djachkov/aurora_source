@@ -3,7 +3,7 @@
 	<info>
 		<name>Tasha's Cauldron</name>
 		<description>Tasha's Cauldron imported by me and encouraged by my friends Dream and Walker Plus Gutairist, Lamp and Haram</description>
-		<update version="0.0.3">
+		<update version="0.0.5">
 			<file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron.index" />
 		</update>
 	</info>
@@ -12,8 +12,10 @@
 	    <file name="spells.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/spells.xml" />
 	    <file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/warlock-fathomless.xml" />
 	    <file name="talisman-boon.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/talisman%20boon.xml" />
-            <file name="talisman-invocations.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/talisman-invocations.xml" />
-            <file name="feats.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/feats.xml" />
-	    <file name="bladesinging.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/bladesinging.xml" />
+        <file name="talisman-invocations.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/talisman%20invocations.xml" />
+		<file name="feats.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/feats.xml" />
+		<file name="bladesinging.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/bladesinging.xml" />
+		<file name="fighting-styles" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/fighting-styles.xml" />
+		<file name="paladin-fighting-styles" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/paladin-fighting-styles.xml" />
 	</files>
 </index>
