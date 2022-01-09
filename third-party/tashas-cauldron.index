@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Tasha's Cauldron</name>
+		<name>Tasha's Cauldron of Everything</name>
 		<description>Tasha's Cauldron imported by me and encouraged by my friends Dream and Walker Plus Gutairist, Lamp and Haram</description>
 		<update version="0.0.5">
 			<file name="tashas-cauldron.index" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron.index" />
@@ -16,6 +16,5 @@
 		<file name="feats.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/feats.xml" />
 		<file name="bladesinging.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/bladesinging.xml" />
 		<file name="fighting-styles" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/fighting-styles.xml" />
-		<file name="paladin-fighting-styles" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/paladin-fighting-styles.xml" />
 	</files>
 </index>

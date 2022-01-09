@@ -3,7 +3,7 @@
   <info>
     <name>The Fathomless</name>
     <description>The Fathomless Otherworldly Patron from Tasha's Cauldron</description>
-    <author url="https://github.com/ThomasWulfric/Wulfrics-Compendeium-of-Wonder">Wulfric</author>
+    <author url="https://github.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder">Wulfric</author>
     <update version="0.0.1">
       <file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/warlock-fathomless.xml" />
     </update>

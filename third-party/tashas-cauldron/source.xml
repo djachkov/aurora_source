@@ -5,7 +5,7 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/source.xml" />
 		</update>
 	</info>
-	<element name="Tasha's Cauldron" type="Source" source="Core" id="ID_SOURCE_TASHAS_CAULDRON">
+	<element name="Tasha's Cauldron of Everything" type="Source" source="Core" id="ID_SOURCE_TASHAS_CAULDRON">
 		<description>
 			<![CDATA[<p>Tasha's Cauldron imported by me for my friends Dream, Walker, Gutairist, Lamp and Haram</p>]]>
 		</description>
@@ -14,7 +14,7 @@
 			<set name="url">https://5e.tools/book.html#tce</set>
 			<set name="image">https://5e.tools/img/covers/TCE.png</set>
 			<set name="author" abbreviation="TCE" url="https://github.com/ThomasWulfric/Tashas-Cauldron">Wulfric</set>
-			<set name="third-party">true</set>
+			<set name="official">true</set>
 			<set name="release">20211217</set>
 		</setters>
 	</element>
