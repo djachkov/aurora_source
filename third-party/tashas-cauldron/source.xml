@@ -12,7 +12,7 @@
 		<setters>
 			<set name="abbreviation">TCE</set>
 			<set name="url">https://5e.tools/book.html#tce</set>
-			<set name="image">https://cdn.discordapp.com/attachments/904148837365596170/914715985599144006/Emmanuel_Dankworth.jpg</set>
+			<set name="image">https://5e.tools/img/covers/TCE.png</set>
 			<set name="author" abbreviation="TCE" url="https://github.com/ThomasWulfric/Tashas-Cauldron">Wulfric</set>
 			<set name="third-party">true</set>
 			<set name="release">20211217</set>
