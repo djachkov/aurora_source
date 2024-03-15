@@ -2,7 +2,7 @@
 <elements>
     <info>
   		<update version="0.0.1">
-		<file name="paladin-fighting-styles" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/paladin-fighting-styles.xml" />
+		<file name="paladin-fighting-styles" url="https://raw.githubusercontent.com/djachkov/aurora_source/main/third-party/tashas-cauldron/paladin-fighting-styles.xml" />
 		</update>
 		<description>Tashas- Paladin Fighting Styles</description>
     </info>

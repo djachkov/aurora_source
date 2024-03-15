@@ -5,7 +5,7 @@
 		<description>Feats from Tasha's Cauldron.</description>
 		<author url="https://5e.tools/book.html#tce,-1">Wulfric</author>
 		<update version="0.1.6">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/ThomasWulfric/Wulfrics-Compendium-of-Wonder/main/third-party/tashas-cauldron/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/djachkov/aurora_source/main/third-party/tashas-cauldron/feats.xml" />
 		</update>
 	</info>
 	
